@@ -25,7 +25,7 @@ else:
 
 age1 = int(input("Enter your age here: "))
 
-if 18 <= age <= 60:
+if 18 <= age1 <= 60:
     print("Working Class")
 else:
     print("Not working class")
@@ -35,12 +35,21 @@ else:
 age = int(input("Enter your age here: "))
 
 permission = input("Do you have a special permission? (yes/no) ")
-if 18 <= age <= 60 or permission == "yes":
+if (18 <= age <= 60) or (permission == "yes"):
     print("Allowed")
 else:
     print("Not allowed")
 
 
 
-#Loops - While Loop
+# #Loops - While Loop
+# Write a program that:
 
+# Starts at 1
+# Prints numbers 1 to 10 using a while loop
+
+count = 1
+
+while count <= 10:
+    print(count)
+    count += 1
