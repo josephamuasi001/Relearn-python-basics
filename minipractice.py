@@ -14,7 +14,33 @@
 
 number = int(input("Enter a number here: "))
 
-if number >= 18:
-    print("Adult")
-elif number < 18:
-    print("Minor")
+if number > 100:
+    print("Too big")
+else:
+    print("Okay")
+
+
+
+#Conditions AND/OR
+
+age1 = int(input("Enter your age here: "))
+
+if 18 <= age <= 60:
+    print("Working Class")
+else:
+    print("Not working class")
+
+
+#Joined conditions 
+age = int(input("Enter your age here: "))
+
+permission = input("Do you have a special permission? (yes/no) ")
+if 18 <= age <= 60 or permission == "yes":
+    print("Allowed")
+else:
+    print("Not allowed")
+
+
+
+#Loops - While Loop
+
