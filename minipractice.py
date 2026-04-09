@@ -6,7 +6,15 @@
 # My name is ___ and I am ___ years old
 
 
-name = input("Enter your name here: ")
-age = int(input("Enter your age here: "))
+# name = input("Enter your name here: ")
+# age = int(input("Enter your age here: "))
 
-print(f"My name is {name} and I am {age} years old")
+# print(f"My name is {name} and I am {age} years old")
+
+
+number = int(input("Enter a number here: "))
+
+if number > 0:
+    print("Positive")
+else:
+    print("Not positive")
