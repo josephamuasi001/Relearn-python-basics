@@ -72,3 +72,25 @@ while num != -1:
 
 print("Program ended")
 
+
+
+#List
+
+numbers = [5, 10, 15, 20]
+
+#Modifying list 
+numbers[0] = 50
+numbers[2] = 150
+
+for number in numbers:
+    print(number * 2)
+
+
+#List Task
+
+my_numbers = [1, 2, 3, 4, 5]
+
+for my_num in my_numbers: 
+    updated = my_num + 5
+    print(updated)
+
