@@ -53,3 +53,22 @@ count = 1
 while count <= 10:
     print(count)
     count += 1
+
+
+#forloop
+
+for i in range(2,21):
+    print(i)
+
+
+
+#What I have learnt soo far
+
+num = int(input("Enter a number here: "))
+
+while num != -1:
+    print(f"You entered: {num}")
+    num = int(input("Enter a number here: "))
+
+print("Program ended")
+
