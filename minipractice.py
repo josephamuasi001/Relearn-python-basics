@@ -14,7 +14,7 @@
 
 number = int(input("Enter a number here: "))
 
-if number > 0:
-    print("Positive")
-else:
-    print("Not positive")
+if number >= 18:
+    print("Adult")
+elif number < 18:
+    print("Minor")
